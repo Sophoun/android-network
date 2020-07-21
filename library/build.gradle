@@ -27,13 +27,20 @@ android {
     lintOptions {
         abortOnError false
     }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    // Common
-    implementation "org.jetbrains.anko:anko-commons:0.10.8"
-    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    // Coroutine
+    implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2"
     implementation 'com.github.sophoun:android-utils:0.0.1'
-    implementation 'com.github.sophoun:android-ui-state:0.0.1'
 }
