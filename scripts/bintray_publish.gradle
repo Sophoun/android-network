@@ -3,7 +3,7 @@ apply plugin: 'maven-publish'
 
 //region Publish to jCenter
 def libGroupId = 'com.github.sophoun'
-def libArtifactId = 'android-utils'
+def libArtifactId = 'android-generic-adapter'
 def libVersion = '0.0.1'
 def libDesc = 'Android Utility.'
 def libLicenses = 'Apache-2.0'
