@@ -5,18 +5,18 @@ apply plugin: 'maven-publish'
 def libGroupId = 'com.github.sophoun'
 def libArtifactId = 'android-generic-adapter'
 def libVersion = '0.0.1'
-def libDesc = 'Android Utility.'
+def libDesc = 'Android Generic Adapter.'
 def libLicenses = 'Apache-2.0'
 def libLicensesUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-def libVCSUrl = 'https://github.com/Sophoun/android-utils.git'
+def libVCSUrl = 'https://github.com/Sophoun/android-generic-adapter.git'
 
 def developerId = 'sophoun'
 def developerName = 'Sophoun Nheum'
 def developerEmail = 'sophoun.unix@gmail.com'
 
-def scmConnection = 'scm:git:git://github.com/Sophoun/android-utils.git'
-def scmDevConnection = 'scm:git:ssh://github.com/Sophoun/android-utils.git'
-def scmDevUrl = "https://github.com/Sophoun/android-utils.git"
+def scmConnection = 'scm:git:git://github.com/Sophoun/android-generic-adapter.git'
+def scmDevConnection = 'scm:git:ssh://github.com/Sophoun/android-generic-adapter.git'
+def scmDevUrl = "https://github.com/Sophoun/android-generic-adapter.git"
 
 // Generate Source Jar
 task sourceJar(type: Jar) {

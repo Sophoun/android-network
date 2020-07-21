@@ -1,4 +1,4 @@
-package com.project.core.framework.adapter
+package com.sophoun.generic.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

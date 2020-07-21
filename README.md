@@ -1,4 +1,4 @@
-# Android Utils
+# Android Generic Adapter
 
 # Documentation
-[Document references](documentation/android-utils/index.md)
+[Document references](documentation/android-generic-adapter/index.md)

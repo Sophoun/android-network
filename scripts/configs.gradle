@@ -1,7 +1,7 @@
 ext {
     configs = ext {
         appName             = "Utils"
-        application_id      = "com.sophoun.app.utils"
+        application_id      = "com.sophoun.app.AndroidGenericAdapter"
         compile_sdk         = 28
         min_sdk             = 21
         target_sdk          = 28

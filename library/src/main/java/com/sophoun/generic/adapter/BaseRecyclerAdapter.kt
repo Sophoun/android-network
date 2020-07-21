@@ -4,7 +4,6 @@ import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.project.core.framework.adapter.BaseRecyclerViewHolder
 import org.jetbrains.anko.childrenRecursiveSequence
 
 abstract class BaseRecyclerAdapter<T> : RecyclerView.Adapter<BaseRecyclerViewHolder<T>>() {

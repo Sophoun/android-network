@@ -1,0 +1,5 @@
+$dokka.format:gfm
+$dokka.linkExtension:md
+
+com.project.core.framework.adapter
+com.sophoun.generic.adapter
